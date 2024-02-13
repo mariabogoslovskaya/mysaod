@@ -12,8 +12,10 @@ int main(){
 	string str = "popo";
 
 	int x, y;
-	cout << "x = "; cin >> x; 
-	cout << "y = "; cin >> y; 
+	cout << "x = "; 
+	cin >> x; 
+	cout << "y = "; 
+	cin >> y; 
 	cout << x << " + " << y << " = " << x + y << endl;
 
 
@@ -27,7 +29,7 @@ int main(){
 	cout << endl;
 	cout << minn(5, 6) << endl;
 	cout << sum(5, 6) << endl;
-
+	system("pause");
 	return 0;
 }
 
